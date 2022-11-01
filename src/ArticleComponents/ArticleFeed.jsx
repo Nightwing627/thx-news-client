@@ -1,5 +1,6 @@
 export default function ArticleFeed({ data }) {
-    const featuredArticle = data.getArticlesByType[1]
+    const featuredArticle = data.getArticlesByType[0]
+    
     return (
         <div className="grid w-full p-4 border-2 grid-cols-articleFeeds border-base-200 max-h-[700px]">
             {/* FEATURED ARTICLE */}

@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom"
 
 export default function HomeFeed(data) {
-    const featuredArticle = data.data[1]
-
+    const featuredArticle = data.data[0]
+    
     return (
         <div className="grid w-full p-4 border-2 grid-cols-articleFeeds border-base-200">
             {/* FEATURED ARTICLE */}
